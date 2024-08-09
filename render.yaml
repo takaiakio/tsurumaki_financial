@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tsumaki_financial
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn financial_analysis.wsgi:application
