@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-y_c*i$#+s0kx7g0i3ddpl1uhf0$lr=a4b@2!18ei%k!90+*@ye
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tsurumaki-financial.onrender.com']
 
 
 # Application definition
